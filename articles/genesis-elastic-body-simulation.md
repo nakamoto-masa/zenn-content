@@ -3,7 +3,7 @@ title: "Genesisは弾性体シミュレーションに使えるのか"
 emoji: "🔬"
 type: "tech"
 topics: ["python", "3d", "robotics", "simulation", "数値計算"]
-published: false
+published: true
 ---
 
 弾性体のリアルタイムシミュレーションができるツールを探していて、Genesisというプロジェクトを見つけました。MPMソルバーを搭載していて、弾性体を数行のコードで扱える。GitHubのスター推移を見たらMuJoCoの2倍以上、公開から1年ちょっとで28,000超。何がそんなに刺さったのか気になって調べ始めたら、速度の宣伝に問題があり、弾性体の速度は未知数で、でも統合ソルバーは本物の強みでした。**弾性体＋剛体を1つのライブラリで扱いたいなら、今のところGenesisに行き着くんじゃないかと思います。**
@@ -112,6 +112,8 @@ Genesisチームは独立検証を受けて修正版ベンチマークを公開�
 :::
 
 この速度の宣伝がGitHubスター28,000超のバズを生んだ主因です。MuJoCoの2倍以上、10年以上の歴史があるPyBulletすら超えるスター数ですが、「使われているから」ではなく「話題になったから」の数字。20研究機関の連名による権威、「汎用物理エンジン＋生成AI」という壮大なビジョン、AI・ロボティクスバブルのタイミングが重なった結果です。
+
+![Star History Chart](https://api.star-history.com/svg?repos=Genesis-Embodied-AI/Genesis,google-deepmind/mujoco,bulletphysics/bullet3,isaac-sim/IsaacLab&type=Date)
 
 ## 選定の現実
 
