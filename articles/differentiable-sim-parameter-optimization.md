@@ -176,4 +176,4 @@ MuJoCoには[MJXのチュートリアル](https://mujoco.readthedocs.io/en/stabl
 - [MuJoCo Computation > Derivatives](https://mujoco.readthedocs.io/en/stable/computation/index.html) — ネイティブMuJoCoの微分機能
 - [MuJoCo MJWarp](https://mujoco.readthedocs.io/en/latest/mjwarp/) — MJXの自動微分に関する唯一の明示的な記述がある
 - [JAX 公式チュートリアル](https://docs.jax.dev/en/latest/tutorials.html)
-- [The Elements of Differentiable Programming (Blondel & Roulet, 2025)](https://arxiv.org/abs/2403.14606) — 微分可能プログラミングの包括的教科書
+- [The Elements of Differentiable Programming](https://arxiv.org/abs/2403.14606)（[日本語解説](https://www.alphaxiv.org/ja/overview/2403.14606)）— 微分可能プログラミングの包括的教科書
