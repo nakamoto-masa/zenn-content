@@ -26,9 +26,9 @@ Claude Codeを使い始めた人の困りごとを調べてみたことがあり
 
 でも、この悩みはごく正常な反応です。
 
-Claude Code開発者のBoris Cherny自身が「最初はCLAUDE.mdなしで始めてもいい」と述べている[^1]。書けないのは知識不足じゃない。**まだ困っていないから、書くものがないだけ。** 困っていないのに「何を書くべきか」を考えるから迷う。
+Claude Code開発者のBoris Cherny自身、セットアップは"surprisingly vanilla"で、カスタマイズはほとんどしていないと語っている[^1]。書けないのは知識不足じゃない。**まだ困っていないから、書くものがないだけ。** 困っていないのに「何を書くべきか」を考えるから迷う。
 
-[^1]: Boris Cherny (Threads): "CLAUDE.mdはシンプルで簡潔に保つことが重要。最初はCLAUDE.mdなしで始めてもいい"
+[^1]: Boris Cherny ([Threads](https://www.threads.com/@boris_cherny/post/DTBVlMIkpcm)): "My setup might be surprisingly vanilla! Claude Code works great out of the box, so I personally don't customize it much."
 
 ## 困ってから話す。それだけでいい
 
