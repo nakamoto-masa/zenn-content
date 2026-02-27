@@ -1,5 +1,5 @@
 ---
-title: "CLAUDE.mdは誰が書く？"
+title: "CLAUDE.md、書こうとするほど書けなくなる"
 emoji: "💬"
 type: "tech"
 topics: ["claudecode", "claude", "anthropic", "agentskills", "skills"]
