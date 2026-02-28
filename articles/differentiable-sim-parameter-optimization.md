@@ -87,9 +87,12 @@ graph LR
     F2 -- "勾配" --> F1
     F1 -- "勾配" --> θ
 
+    Note["勾配をもとに更新<br/>θ ← θ − α∇L"]
+
     style F1 fill:#4a9eff,color:#fff
     style F2 fill:#4a9eff,color:#fff
     style F3 fill:#4a9eff,color:#fff
+    style Note fill:none,stroke:none
 ```
 
 シミュレーション内部の各計算ステップを通って、出力から入力まで連鎖律（chain rule）で勾配をたどれる。中身が見えるから、すべてのパラメータに対して「どっちにどれだけ動かせばいいか」がわかる。
@@ -138,7 +141,9 @@ from mujoco import mjx
 
 # MuJoCoモデルをMJXに変換
 model = mujoco.MjModel.from_xml_path('robot.xml')
+data = mujoco.MjData(model)
 mjx_model = mjx.put_model(model)
+mjx_data = mjx.put_data(model, data)
 
 # シミュレーションを実行する関数
 def simulate(params, mjx_model, mjx_data):
