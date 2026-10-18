@@ -120,4 +120,5 @@ READMEにある例を日本語に訳して使います。
 
 - [pstack（cursor/plugins）](https://github.com/cursor/plugins/tree/main/pstack)
 - [pstack v0.15.25（cursor/plugins）](https://github.com/cursor/plugins/tree/09d06eb/pstack): この記事で読んだ版
+- [Route work through /poteto-mode](https://github.com/cursor/plugins/blob/main/pstack/docs/guide/02-poteto-mode.md): 公式ガイドの `/poteto-mode` の章
 - [pstackの謎を解く：Cursorの爆速開発を支えるスキルは、どう作られているか](https://zenn.dev/alchemist/articles/pstack-demystified): 前回の記事。pstackがどう作られてきたか
