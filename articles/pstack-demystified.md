@@ -100,6 +100,8 @@ pstackは5段目の例です。本人も、noodleという原型を作ってい�
 
 「これを一人で作ったのか？」という最初の疑問に戻ると、pstackは一人で書いたものではなく、エージェントとの共同作業で育てたもの、というのが答えです。
 
+次回は、`/poteto-mode` に一言頼んだとき、裏でどのスキルがどう呼ばれているのかを追います。
+
 ## 参考
 
 - [pstack（cursor/plugins）](https://github.com/cursor/plugins/tree/main/pstack)
