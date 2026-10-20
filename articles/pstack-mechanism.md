@@ -116,6 +116,8 @@ READMEにある例を日本語に訳して使います。
 2. 自分のタスクに近いPlaybookを1つ
 3. 原則は、作業報告に名前が出てきたら、そのときに読む
 
+次回は、月2,500件のPRを出す作者が、pstackで何にこだわっているのかを見ていきます。
+
 ## 参考
 
 - [pstack（cursor/plugins）](https://github.com/cursor/plugins/tree/main/pstack)

@@ -1,16 +1,11 @@
 ---
-title: "pstackの謎を解く：月2,500件のPRを出す人は、なぜ品質にこだわるのか"
+title: "pstackの謎を解く：月2,500件のPRを支えていたのは、速さではなかった"
 emoji: "🧩"
 type: "tech"
 topics: ["cursor", "claudecode", "agentskills", "ai", "aiagent"]
-published: false
+published: true
+published_at: 2026-10-22 09:00
 ---
-
-> **【執筆メモ：本文には出さない】記事の位置付けと元ネタ**
->
-> - pstack-demystified の続編（シリーズ3本目）。読者はpstackを使う人。
-> - 焦点: エージェントにたくさん働かせる話ではなく、品質へのこだわりと、その理由。
-> - 元ネタ: [pstack-code-quality_findings.md](../../tech-notes/research/2026-10/pstack-code-quality_findings.md)
 
 ## 速さを生んでいたのは、熱すぎる品質へのこだわり
 
