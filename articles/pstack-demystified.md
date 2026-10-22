@@ -102,6 +102,13 @@ pstackは5段目の例です。本人も、noodleという原型を作ってい�
 
 次回は、`/poteto-mode` に一言頼んだとき、裏でどのスキルがどう呼ばれているのかを追います。
 
+## pstackの謎を解くシリーズ
+
+- 1本目（この記事）: pstackの謎を解く：Cursorの爆速開発を支えるスキルは、どう作られているか
+- 2本目: [pstackの謎を解く：たった一言の指示でPRまで。裏で何が動いているか](https://zenn.dev/alchemist/articles/pstack-mechanism)
+- 3本目: [pstackの謎を解く：月2,500件のPRを支えていたのは、速さではなかった](https://zenn.dev/alchemist/articles/pstack-code-quality)
+- 4本目: pstackの謎を解く：ループを改善するループを回す、5つのスキル
+
 ## 参考
 
 - [pstack（cursor/plugins）](https://github.com/cursor/plugins/tree/main/pstack)

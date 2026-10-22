@@ -105,7 +105,16 @@ pstackの原則では、入力の検証は境界で1回だけ行い、内側で�
 > ただ、ここまで来るのは本当に大変です。これははっきり言っておきたい。pstackを使えば簡単にできます、みたいな売り方はしたくないんです。自分のコードのことや、エージェントがどこで失敗しているかを考えて、すごく丁寧に、意図してガードレールや制約を用意して、放っておいても正しいことをするようにする。それには時間も手間もかかります。
 > （[ライブ配信 50:48](https://www.youtube.com/watch?v=MN9dGgmLyso&t=3048s)）
 
-本人が一番頼りにしているのは、スキルではなく、悪いパターンをlintや型で書けなくしたコードベースのほうです。
+Cursor開発での桁違いの速さは、本人がガーデニングにたとえる、悪いものを芽のうちに摘み続ける地道な品質づくりの上に成り立っていました。
+
+次回は、pstackが自分自身を改善していく仕組みを、それを担うスキルから見ていきます。
+
+## pstackの謎を解くシリーズ
+
+- 1本目: [pstackの謎を解く：Cursorの爆速開発を支えるスキルは、どう作られているか](https://zenn.dev/alchemist/articles/pstack-demystified)
+- 2本目: [pstackの謎を解く：たった一言の指示でPRまで。裏で何が動いているか](https://zenn.dev/alchemist/articles/pstack-mechanism)
+- 3本目（この記事）: pstackの謎を解く：月2,500件のPRを支えていたのは、速さではなかった
+- 4本目: pstackの謎を解く：ループを改善するループを回す、5つのスキル
 
 ## 参考
 
@@ -113,5 +122,3 @@ pstackの原則では、入力の検証は境界で1回だけ行い、内側で�
 - [pstack v0.15.25（cursor/plugins）](https://github.com/cursor/plugins/tree/09d06eb/pstack): この記事で読んだ版
 - [here's how i shipped 2,500 PRs last month to production](https://x.com/poteto/status/2102050467505430555): Lauren Tan（@poteto）氏のXへの投稿（トーク動画つき）
 - [LIVE: Poteto (creator of pstack) on shipping 1,000's of PR's a month at SpaceX](https://www.youtube.com/watch?v=MN9dGgmLyso): Lauren Tan（@poteto）氏が出演したライブ配信
-- [pstackの謎を解く：Cursorの爆速開発を支えるスキルは、どう作られているか](https://zenn.dev/alchemist/articles/pstack-demystified): シリーズ1本目
-- [pstackの謎を解く：たった一言の指示でPRまで。裏で何が動いているか](https://zenn.dev/alchemist/articles/pstack-mechanism): シリーズ2本目

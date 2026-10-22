@@ -118,9 +118,15 @@ READMEにある例を日本語に訳して使います。
 
 次回は、月2,500件のPRを出す作者が、pstackで何にこだわっているのかを見ていきます。
 
+## pstackの謎を解くシリーズ
+
+- 1本目: [pstackの謎を解く：Cursorの爆速開発を支えるスキルは、どう作られているか](https://zenn.dev/alchemist/articles/pstack-demystified)
+- 2本目（この記事）: pstackの謎を解く：たった一言の指示でPRまで。裏で何が動いているか
+- 3本目: [pstackの謎を解く：月2,500件のPRを支えていたのは、速さではなかった](https://zenn.dev/alchemist/articles/pstack-code-quality)
+- 4本目: pstackの謎を解く：ループを改善するループを回す、5つのスキル
+
 ## 参考
 
 - [pstack（cursor/plugins）](https://github.com/cursor/plugins/tree/main/pstack)
 - [pstack v0.15.25（cursor/plugins）](https://github.com/cursor/plugins/tree/09d06eb/pstack): この記事で読んだ版
 - [Route work through /poteto-mode](https://github.com/cursor/plugins/blob/main/pstack/docs/guide/02-poteto-mode.md): 公式ガイドの `/poteto-mode` の章
-- [pstackの謎を解く：Cursorの爆速開発を支えるスキルは、どう作られているか](https://zenn.dev/alchemist/articles/pstack-demystified): 前回の記事。pstackがどう作られてきたか

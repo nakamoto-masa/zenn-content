@@ -111,12 +111,16 @@ pstackの改善の仕組みは、人が回す2つのワークフローででき�
 
 見つけるスキルは、直しをできるだけlintや型、テストのような、自動で落ちる仕組みに寄せます。人が繰り返し訂正していた間違いは、次からはエージェントの作業の中で止まるようになります。
 
+## pstackの謎を解くシリーズ
+
+- 1本目: [pstackの謎を解く：Cursorの爆速開発を支えるスキルは、どう作られているか](https://zenn.dev/alchemist/articles/pstack-demystified)
+- 2本目: [pstackの謎を解く：たった一言の指示でPRまで。裏で何が動いているか](https://zenn.dev/alchemist/articles/pstack-mechanism)
+- 3本目: [pstackの謎を解く：月2,500件のPRを支えていたのは、速さではなかった](https://zenn.dev/alchemist/articles/pstack-code-quality)
+- 4本目（この記事）: pstackの謎を解く：ループを改善するループを回す、5つのスキル
+
 ## 参考
 
 - [pstack（cursor/plugins）](https://github.com/cursor/plugins/tree/main/pstack)
 - [pstack v0.15.25（cursor/plugins）](https://github.com/cursor/plugins/tree/09d06eb/pstack): この記事で読んだ版
 - [Make it yours](https://github.com/cursor/plugins/blob/09d06eb/pstack/docs/guide/09-make-it-yours.md): 公式ガイドの、`/reflect`、`/correct`、`/automate-me`、Evalの章
 - [Verify and ship](https://github.com/cursor/plugins/blob/09d06eb/pstack/docs/guide/06-verify-and-ship.md): 公式ガイドの、確認スキルの作り方と保ち方の章
-- [pstackの謎を解く：Cursorの爆速開発を支えるスキルは、どう作られているか](https://zenn.dev/alchemist/articles/pstack-demystified): シリーズ1本目
-- [pstackの謎を解く：たった一言の指示でPRまで。裏で何が動いているか](https://zenn.dev/alchemist/articles/pstack-mechanism): シリーズ2本目
-- [pstackの謎を解く：月2,500件のPRを支えていたのは、速さではなかった](https://zenn.dev/alchemist/articles/pstack-code-quality): シリーズ3本目
