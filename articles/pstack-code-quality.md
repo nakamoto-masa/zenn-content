@@ -1,5 +1,5 @@
 ---
-title: "pstackの謎を解く：月2,500件のPRを支えていたのは、速さではなかった"
+title: "pstackの謎を解く：たった一人で月2,500件のPRを出せた秘密は、速さではなかった"
 emoji: "🧩"
 type: "tech"
 topics: ["cursor", "claudecode", "agentskills", "ai", "aiagent"]
